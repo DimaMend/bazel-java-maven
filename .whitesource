@@ -9,6 +9,9 @@
     "minSeverityLevel": "NONE",
     "issueType": "DEPENDENCY"
   },
+  "scanSettingsSAST": {
+    "enableScan": "false"
+  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": false
