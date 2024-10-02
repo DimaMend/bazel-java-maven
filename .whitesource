@@ -1,14 +1,5 @@
 {
   "settingsInheritedFrom": "DimaMend/whitesource-config@main",
-  "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "none",
-    "displayMode": "diff",
-    "useMendCheckNames": true
-  },
-  "issueSettings": {
-    "minSeverityLevel": "NONE",
-    "issueType": "DEPENDENCY"
-  },
   "scanSettingsSAST": {
     "enableScan": "false"
   },
@@ -19,8 +10,7 @@
     "enableRenovate": true,
     "extends": [
       "config:recommended",
-      "mergeConfidence:all-badges",
-      "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+      "mergeConfidence:all-badges"
     ],
     "packageRules": [
       {
