@@ -1,3 +1,5 @@
+[Renovate Bazel](https://docs.renovatebot.com/bazel/)
+
 Maven Java application
 ----------------------
 
